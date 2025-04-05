@@ -33,7 +33,7 @@ h1{
     font-size: 30px;
     margin-left: 1rem;
 }
-@media (max-width: 375px){
+@media (max-width: 350px){
     .global{
         flex-wrap: wrap;
     }
