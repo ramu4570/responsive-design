@@ -1,0 +1,40 @@
+h1{
+    font-size: 5rem;
+    color: greenyellow;
+    text-align: center;
+}
+.global{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pannel{
+    background-color: rgb(0, 0, 0);
+    height: 40rem;
+    width: 35rem;
+    border-radius: 3rem;
+    margin-top: 7rem;
+}
+.pannel img{
+    width: 100%;
+    height: 50%;
+    border-radius: 3rem;
+}
+.pannel p{
+    color: white;
+    font-size: 20px;
+}
+.pannel button{
+    font-size: 30px;
+    margin-left: 1rem;
+    border-radius: 3rem;
+}
+.pannel h2{
+    color: yellowgreen;
+    font-size: 30px;
+    margin-left: 1rem;
+}
+@media (max-width: 375px){
+    .global{
+        flex-wrap: wrap;
+    }
+}
